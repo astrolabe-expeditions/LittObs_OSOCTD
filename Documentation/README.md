@@ -21,8 +21,6 @@ Le programme LittObs d’Astrolabe Expeditions a pour objectif de déployer un r
 * [Fondation du Crédit Mutuel Alliance Fédérale](https://fondation.creditmutuelalliancefederale.fr/)
 * [Fondation de France](https://www.fondationdefrance.org/)
 
-<figure><img src="../docs/.gitbook/assets/Observatoires LittObs.png" alt=""><figcaption><p>Schéma d’un observatoire LittObs | Astrolabe Expeditions</p></figcaption></figure>
-
 ## Étudier les zones littorales sous l'influence des fleuves
 
 Les zones littorales, directement influencées par les apports fluviaux, sont intéressantes dans l’étude du mélange entre les eaux douces et marines, facteur important de la salinisation des océans, et donc des mouvements des courants marins qui régulent notre climat. De plus, la biodiversité marine et terrestre y est plus dense que sur le reste du littoral, favorisant le développement d’écosystèmes riches et particuliers. Ces zones sont aussi vulnérables puisque soumises à la pression liée à l’activité humaine ainsi que par le changement climatique. Il est donc primordial de surveiller l’évolution de ces écosystèmes à des fins de préservation.﻿ L’opportunité de développer des capteurs à bas coût, construits et déployés localement pourrait augmenter significativement la compréhension de ces mélanges entre continents et mers, et d’apporter des jeux de données accessibles sur la courantologie côtière permettant d’anticiper les effets du réchauffement climatique.
