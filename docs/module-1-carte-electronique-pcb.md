@@ -101,12 +101,12 @@ L'AtlasScientific (composant pour le capteur de salinité, couleur violet) doit 
 >
 > <img src="https://wikifactory.com/files/RmlsZTo5MDMwNzc=" alt="" data-size="original">
 
-> Attention : à souder les supports batteries dans le bon sens (se référer au + et - dessinés sur les cartes PCB) et bien enlever les batterie lors de la soudure.
+> Attention : à souder les supports batteries dans le bon sens (se référer au + et - dessinés sur les cartes PCB) et bien enlever les batteries lors de la soudure.
 
 **3. Souder ﻿ l'horloge, le booster, la carte SD, l'ESP32 et l'opto isolateur sur leurs pins**![](https://wikifactory.com/files/RmlsZTo5MDMwNzY=)![](https://wikifactory.com/files/RmlsZTo5NTMwNjQ=)﻿\
 
 
-* Lors de la soudure de ﻿l'interrupteur à lames souples Reed Switch, bien vérifier qu'il soit en position fermé à l'aide d'un multimètre (le courant doit passer) et couper l'autre pin.
+* Lors de la soudure de ﻿l'interrupteur à lames souples Reed Switch, bien vérifier qu'il soit en position Fermé à l'aide d'un multimètre (le courant doit passer) et couper l'autre pin.
 * Dessouder les pins déjà présents sur l'optoisolateur Atlas.
 * une fois le tout souder, ajouter le circuit de conductivité (carte verte, somme sur image ci-dessus)
 

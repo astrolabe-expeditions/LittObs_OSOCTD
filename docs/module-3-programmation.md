@@ -46,8 +46,8 @@ Le **code** se trouve sur : [https://github.com/CedricCourson/LittObs](https://g
 
 **4. Installer les librairies**
 
-* Télécharger le zip du github SensOcean où se trouve un dossier "Librairies" contenant toutes les librairies necéssaire : [https://github.com/astrolabe-expeditions/SensOcean](https://github.com/astrolabe-expeditions/SensOcean)﻿
-* Placer les fichier sur votre ordinaeur, dans Document, créer un dossier Arduino et déposez y les librairies
+* Télécharger le zip du github SensOcean où se trouve un dossier "Librairies" contenant toutes les librairies nécessaires : [https://github.com/astrolabe-expeditions/SensOcean](https://github.com/astrolabe-expeditions/SensOcean)﻿
+* Placer les fichiers sur votre ordinateur, dans Document, créer un dossier Arduino et déposez y les librairies
 * Vérifier que tout marche bien :
 * brancher votre carte ESP32 à l'ordinateur
 * sélectionner ﻿FireBeetle-ESP32 pour le port de communication (COM...) sur lequel vous l'avez branché
@@ -100,24 +100,27 @@ Le **code** se trouve sur : [https://github.com/CedricCourson/LittObs](https://g
 
 **Vérifier les soudures**
 
-* Vérifier à l'aide d'un multimètre que les soudures ne se touchent pas (notamment les transistors qui ont des pattes très rapprochées
+* Vérifier à l'aide d'un multimètre que les soudures ne se touchent pas (notamment les transistors qui ont des pattes très rapprochées)
 
 **Vérifier le bon fonctionnement du module EZO (petit module vert sur lequel on vient connecter la sonde de conductimétrie)**
 
-* Mettre la carte sous tension, et vérifier que la petit LED du module EZO (module auquel on relie la sonde) clignote﻿. Si ce n'est pas le cas,
-  * Vérifier qu'il y a bien une tension de 5V entre la borne VCC et la borne GND du module violet. Si ce n'est pas le cas, c'est probablement le voltage booster qui n'est pas bon (le petit module munie d'une bobine se trouvant sous la carte ESP). Une solution de secours consiste à soit alimenter directement le module violet avec la sortie 3.3V de la carte ESP, soit à faire un court circuit entre la première et la troisième patte du module voltage booster.
+*   Mettre la carte sous tension, et vérifier que la petite LED du module EZO (module auquel on relie la sonde) clignote﻿. Si ce n'est pas le cas :
+
+    * Vérifier qu'il y a bien une tension de 5V entre la borne VCC et la borne GND du module violet. Si ce n'est pas le cas, c'est probablement le voltage booster qui n'est pas bon (le petit module muni d'une bobine se trouvant sous la carte ESP). Une solution de secours consiste à :
+
+    soit alimenter directement le module violet avec la sortie 3.3V de la carte ESP, soit à faire un court circuit entre la première et la troisième patte du module voltage booster.
 
 **VÉRIFIER QUE LE MODULE DE CONDUCTIMÉTRIE EZO EST BIEN CONFIGURÉ**
 
 * Par défaut, le capteur communique en UART. Notre programme utilise le protocole I2c pour communiquer avec. Vous savez qu'il est en UART si le module vert clignote en vert puis bleu clair. Il clignote seulement en bleu foncé s'il est en I2c.
-* Pour procéder en changement, munissez vous d'une alimentation stabilisée 5V (une Arduino ou une alimentation de laboratoire), et de 3 fils de connection.
+* Pour procéder au changement, munissez vous d'une alimentation stabilisée 5V (une Arduino ou une alimentation de laboratoire), et de 3 fils de connection.
 * Détachez le module vert du module violet et branchez-le de la sorte :
 
 ﻿\
 ![](https://wikifactory.com/files/RmlsZToxMDc3OTYw)﻿\
 
 
-* Le LED s'allume en bleu, c'est bon !
+* Le LED s'allume en bleu = c'est bon !
 * Remettez le module vert sur le module violet (dans le bon sens !)
 
 Lien de la doc : [https://files.atlas-scientific.com/EC\_EZO\_Datasheet.pdf](https://files.atlas-scientific.com/EC_EZO_Datasheet.pdf)
@@ -150,7 +153,7 @@ Si la sonde n'a pas encore de carte SD
 **3. Configurer la sonde**
 
 * Copier coller le fichier ﻿`config_MODELE.txt` sur la carte SD
-* Renomer le fichier en `config.txt`
+* Renommer le fichier en `config.txt`
 * Les première lignes expliquent chaque paramètre. Une fois que vous en avez pris connaissance, supprimer ces lignes explicatives. Il ne reste plus que :
 
 ```
@@ -184,7 +187,7 @@ led_mode=1;
 * Ouvrir le fichier Module\_CTD.ino avec l'IDE Arduino
 * Connecter le ESP32 en USB et sélectionner la carte FireBeetle ESP32 pour le bon port COM
 * Téléverser le code sur la carte
-* L'ESP est censé renvoyer quelquechose comme :
+* L'ESP est censé renvoyer quelque chose comme :
 
 ```
 ﻿ets Jun 8 2016 00:22:57
@@ -269,7 +272,7 @@ Blue Robotics Bar30: White=SDA, Green=SCL
 **5. Vérifier que le module de conductimétrie EZO est bien configuré**
 
 * Par défaut, le capteur communique en UART. Notre programme utilise le protocole I2c pour communiquer avec. Vous savez qu'il est en UART si le module vert clignote en vert puis bleu clair. Il clignote seulement en bleu foncé s'il est en I2c.
-* Pour procéder en changement, munissez vous d'une alimentation stabilisée 5V (une Arduino ou une alimentation de laboratoire), et de 3 fils de connection.
+* Pour procéder au changement, munissez vous d'une alimentation stabilisée 5V (une Arduino ou une alimentation de laboratoire), et de 3 fils de connection.
 * Détachez le module vert du module violet et branchez-le de la sorte :
 
 ![](https://wikifactory.com/files/RmlsZToxMDc3ODA4)
@@ -297,11 +300,11 @@ Lien de la doc : [https://files.atlas-scientific.com/EC\_EZO\_Datasheet.pdf](htt
 
 #### Interface de gestion de l'instrument
 
-L'instrument est doté d’une interface web permettant de lire et récupérer le fichier de données et le fichiers de configurations. Pour y accéder il suffit de placer un aimant devant l’interrupteur ILS au moment de l’allumage.﻿\
+L'instrument est doté d’une interface web permettant de lire et récupérer le fichier de données et le fichier de configuration. Pour y accéder il suffit de placer un aimant devant l’interrupteur ILS au moment de l’allumage.﻿\
 Dans ce cas l’ESP32 démarre en mode serveur Web, et peut y accéder simplement via wifi depuis n’importe quel appareil (ordi, smartphone, tablette…).﻿\
 L’ESP32 démarre un serveur wifi au SSID (nom) : _LittObs-Instrument_﻿\
 Ensuite il suffit d’ouvrir un navigateur web et d’entrer l’adresse : 192.168.1.4﻿\
-On accéder alors à une page web permettant de gérer l’instrument.﻿\
+On accéde alors à une page web permettant de gérer l’instrument.﻿\
 **Menu principal**﻿\
 Page web de l’interface (download data file et config file et accès au menu)![](https://wikifactory.com/files/RmlsZTo5MDMwODE=)﻿\
 ﻿\

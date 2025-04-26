@@ -17,7 +17,7 @@ coverY: 0
 
 Le capteur&#x20;
 
-<div align="left"><figure><img src=".gitbook/assets/20240904_143627.jpg" alt="" width="188"><figcaption><p>à savoir que la sonde est étanche uniquement lorsque les capteurs bouches les trous des bouchons A et B (cf. plus bas)</p></figcaption></figure></div>
+<div align="left"><figure><img src=".gitbook/assets/20240904_143627.jpg" alt="" width="188"><figcaption><p>à savoir que la sonde est étanche uniquement lorsque les capteurs bouchent les trous des bouchons A et B (cf. plus bas)</p></figcaption></figure></div>
 
 Liste du matériel
 
@@ -26,14 +26,14 @@ Liste du matériel
 
 * Tube PVC﻿
 * PCB ([voir si dessous pour le plan](module-1-carte-electronique-pcb.md))
-* 3 tige filetée 3mm, L 25cm
+* 3 tiges filetées 3mm, L 25cm
 * écrous x3&#x20;
 * écrous papillons x3
 * Vis M3x10
 * disque PMMA 10mm (pour les bouchons)
 * Presse étoupe PG16, IP68 - [Fournisseur](https://fr.rs-online.com/web/p/presse-etoupes/8229681/?relevancy-data=7365617263685F636173636164655F6F726465723D31267365617263685F696E746572666163655F6E616D653D4931384E525353746F636B4E756D626572267365617263685F6C616E67756167655F757365643D656E267365617263685F6D617463685F6D6F64653D6D61746368616C6C267365617263685F7061747465726E5F6D6174636865643D5E2828282872737C5253295B205D3F293F285C647B337D5B5C2D5C735D3F5C647B332C347D5B705061415D3F29297C283235285C647B387D7C5C647B317D5C2D5C647B377D29292924267365617263685F7061747465726E5F6F726465723D31267365617263685F73745F6E6F726D616C697365643D59267365617263685F726573706F6E73655F616374696F6E3D267365617263685F747970653D52535F53544F434B5F4E554D424552267365617263685F77696C645F63617264696E675F6D6F64653D4E4F4E45267365617263685F6B6579776F72643D3832322D39363831267365617263685F6B6579776F72645F6170703D38323239363831267365617263685F636F6E6669673D3126\&searchHistory=%7B%22enabled%22%3Atrue%7D)
 * Joints (à préciser)  x2
-* Joints 2mm épaisseurs - diamètres trou﻿
+* Joints 2mm épaisseur - diamètres trou﻿
 
 **## Image du matériel**
 
@@ -42,7 +42,7 @@ Liste du matériel
 ﻿\
 **Outils et accessoires d'atelier :**
 
-* Outils de base (tournevis, pince plate, pince coupante, clef anglaise, clef plates...)
+* Outils de base (tournevis, pince plate, pince coupante, clef anglaise, clef plate...)
 * Règle/mètre/crayon/Cutter/Ciseaux
 * accès à découpeuse laser et imprimante 3D
 
@@ -50,7 +50,7 @@ Liste du matériel
 
 L﻿a construction se divise en 3 modules :
 
-> **Module bouchons :** découpe laser des bouchons dans du plexigalss 10mm et taraudage des trous de vis
+> **Module bouchons :** découpe laser des bouchons dans du plexiglass 10mm et taraudage des trous de vis
 >
 > **Module découpe du caisson** : découpe du caisson en PVC, chanfreinage et des tiges filetées&#x20;
 >
@@ -140,7 +140,7 @@ Rien à faire de particulier sur le bouchon D.
 Découper un cylindre de 24,5 cm de longueur dans le tube PVC avec la scie\
 circulaire. Chanfreiner les bords du tube avec l'affleureuse (angle de 45°).
 
-Il faut également usiner les chanfreins sur les bords du tube, avec une défonceuse (ou affleureuse) montée a l'envers sur une petite table avec une fraise à roulement à 45°. Il faut régler la profondeur d'usinage (sortie de la fraise par rapport à la table) de telle sorte à faire un logement suffisant pour le joint.
+Il faut également usiner les chanfreins sur les bords du tube, avec une défonceuse (ou affleureuse) montée à l'envers sur une petite table avec une fraise à roulement à 45°. Il faut régler la profondeur d'usinage (sortie de la fraise par rapport à la table) de telle sorte à faire un logement suffisant pour le joint.
 
 (AJOUTER PHOTO D'UN TUBE DE PVC)&#x20;
 
@@ -150,7 +150,7 @@ Il faut également usiner les chanfreins sur les bords du tube, avec une défonc
 
 \
 Fixer la tige filetée dans l'étau, avec des cales en bois pour la protéger.\
-Découper trois tige de 28,5 cm de longueur avec la scie sauteuse (équipée d'un\
+Découper trois tiges de 28,5 cm de longueur avec la scie sauteuse (équipée d'un\
 foret à métaux).&#x20;
 
 Limer les extrémités avec une lime à métaux pour faciliter l’insertion des écrous papillons.
